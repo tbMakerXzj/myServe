@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "singularName": "book",
+    "pluralName": "books",
+    "displayName": "book",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bookName": {
+      "type": "string",
+      "required": true,
+      "maxLength": 24,
+      "minLength": 1
+    },
+    "price": {
+      "type": "integer"
+    },
+    "publisher": {
+      "type": "string"
+    }
+  }
+}
